@@ -1,4 +1,4 @@
-package com.cloud.hrworker;
+package com.cloud.hrworker.controller;
 
 import com.cloud.hrworker.entities.Worker;
 import com.cloud.hrworker.repository.WorkerRepository;
