@@ -1,8 +1,8 @@
-package com.cloud.payroll.service;
+package com.cloud.hrpayroll.service;
 
-import com.cloud.payroll.client.WorkerFeignClient;
-import com.cloud.payroll.entities.Payment;
-import com.cloud.payroll.entities.Worker;
+import com.cloud.hrpayroll.client.WorkerFeignClient;
+import com.cloud.hrpayroll.entities.Payment;
+import com.cloud.hrpayroll.entities.Worker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

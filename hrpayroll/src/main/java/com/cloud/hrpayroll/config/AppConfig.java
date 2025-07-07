@@ -1,4 +1,4 @@
-package com.cloud.payroll.config;
+package com.cloud.hrpayroll.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

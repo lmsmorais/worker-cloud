@@ -1,7 +1,7 @@
-package com.cloud.payroll.controller;
+package com.cloud.hrpayroll.controller;
 
-import com.cloud.payroll.entities.Payment;
-import com.cloud.payroll.service.PaymentService;
+import com.cloud.hrpayroll.entities.Payment;
+import com.cloud.hrpayroll.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

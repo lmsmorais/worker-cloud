@@ -1,15 +1,17 @@
-package com.cloud.payroll;
+package com.cloud.hrpayroll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+@EnableDiscoveryClient
 @EnableFeignClients
 @SpringBootApplication
-public class PayrollApplication {
+public class HrpayrollApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PayrollApplication.class, args);
+		SpringApplication.run(HrpayrollApplication.class, args);
 	}
 
 }

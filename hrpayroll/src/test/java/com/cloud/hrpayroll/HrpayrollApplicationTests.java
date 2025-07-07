@@ -1,10 +1,10 @@
-package com.cloud.payroll;
+package com.cloud.hrpayroll;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PayrollApplicationTests {
+class HrpayrollApplicationTests {
 
 	@Test
 	void contextLoads() {

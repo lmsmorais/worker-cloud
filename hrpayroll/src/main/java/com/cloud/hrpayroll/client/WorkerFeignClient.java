@@ -1,6 +1,6 @@
-package com.cloud.payroll.client;
+package com.cloud.hrpayroll.client;
 
-import com.cloud.payroll.entities.Worker;
+import com.cloud.hrpayroll.entities.Worker;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;

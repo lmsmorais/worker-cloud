@@ -1,4 +1,4 @@
-package com.cloud.payroll.entities;
+package com.cloud.hrpayroll.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
