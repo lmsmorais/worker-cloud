@@ -11,7 +11,7 @@
 	<groupId>com.cloud</groupId>
 	<artifactId>hrpayroll</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>payroll</name>
+	<name>hrpayroll</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -37,9 +37,26 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.resilience4j</groupId>
+			<artifactId>resilience4j-feign</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 			<version>4.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.resilience4j</groupId>
+			<artifactId>resilience4j-spring-boot3</artifactId>
+			<version>2.0.2</version>
 		</dependency>
 
 		<dependency>
